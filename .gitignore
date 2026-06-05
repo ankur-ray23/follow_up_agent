@@ -1,0 +1,6 @@
+credentials/
+.env
+email_scrape.ipynb
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
