@@ -18,8 +18,9 @@ from googleapiclient.discovery import build
 import pdfplumber
 import openai
 from google.auth.transport.requests import Request
+from dotenv import load_dotenv
 
-
+load_dotenv()
 # %%
 # SCOPES: Full access to Gmail read-only
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly','https://www.googleapis.com/auth/gmail.send']
